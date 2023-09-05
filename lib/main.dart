@@ -1,4 +1,5 @@
 import 'package:firstflutterapp/LoginScreen.dart';
+import 'package:firstflutterapp/MassengerScreen.dart';
 import 'package:firstflutterapp/homescreen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-    home: LoginScreen(),
+    home: MassengerScreen(),
     );
 
 
